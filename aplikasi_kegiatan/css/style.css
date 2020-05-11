@@ -1,0 +1,97 @@
+body{
+	font-family: sans-serif;
+	background: #5dd39e;
+}
+
+h1{
+	text-align: center;
+	/*ketebalan font*/
+	font-weight: 300;
+}
+
+.judul1{
+	text-align: center;
+	/*membuat semua huruf menjadi kapital*/
+	text-transform: uppercase;
+}
+
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+
+.tabel_login{
+	/*membuat lebar form penuh*/
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.tabel{
+	padding: 5px;
+    font-size: 11pt;
+}
+
+.tabel_laporan{
+	padding: 5px;
+    font-size: 11pt;
+}
+
+.tombol{
+	background: #9de9a0;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
+}
+
+.tombol_cari{
+	background: #9de9a0;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+    padding: 10px 20px;
+}
+
+nav.menu ul {
+    overflow: hidden;
+    color: #d5f0f3;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 50px;
+    background: #5fdae7;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+    box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+
+nav.menu ul li {
+    margin: 0;
+    float: left;
+}
+
+nav.menu ul a {
+    padding: 25px;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    text-decoration: none;
+}
+
+nav.menu ul a:hover {
+    text-decoration: underline;
+    background: #16a085;
+}
